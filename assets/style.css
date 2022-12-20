@@ -1,0 +1,63 @@
+
+body{
+    max-width: 100%;
+    padding: 20px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0 auto;
+    background-image: url(../assets/image/Vector_2646.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+header{
+    padding: 15px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.nav-list ul>a>li{
+    display: inline-block;
+    margin: 20px;
+    color: white;
+    flex-direction: row;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+h1{
+    font-size: 70px;
+    font-weight: 200;
+    margin-left: 150px;
+}
+
+h2{
+    font-size: 70px;
+    font-weight: 200;
+    margin-left: 150px;
+}
+
+.body-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.body-list ul>a>li{
+    display: block;
+    margin-top: 10px;
+    padding-right: 30px;
+    font-size: 20px;
+    font-weight: 50;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}

@@ -21,6 +21,7 @@ header{
     margin: 20px;
     color: rgb(123, 199, 243);
     flex-direction: row;
+    text-shadow: 2px 2px 2px black;
 }
 
 section{

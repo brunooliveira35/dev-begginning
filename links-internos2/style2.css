@@ -44,9 +44,26 @@ header{
     margin-right: 15px;
 }
 
-section.sobre{
-    height: calc(100% - 200px);
-    position: relative;
+.sobre{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+}
+.sobre h1{
+    color: rgb(255, 1, 179);
+    font-size: 25px;
+}
+.sobre p{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 500px;
+    font-size: 18px;
 }
 
 .extras{
